@@ -1,11 +1,17 @@
 export default function About() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6">
-      <h2 className="text-3xl font-bold mb-4">About House of Tyche</h2>
-      <p className="opacity-80">
-        House of Tyche is your gateway to curated casino partnerships, tailored promotions, and strategic insights.
-        We blend luck with logic—so every referral is a calculated win.
+
+
+
+    <div className="max-w-3xl mx-auto space-y-6">
+      <h2 className="text-3xl font-bold text-yellow-400">Page Title</h2>
+      <p className="text-gray-300 leading-relaxed">
+        Your content goes here, spaced out and styled with consistent indentation.
       </p>
     </div>
+    
+
+
+
   );
 }
