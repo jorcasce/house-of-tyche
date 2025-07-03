@@ -6,6 +6,9 @@ import Casino3 from "./pages/Casinos/Casino3";
 import Casino4 from "./pages/Casinos/Casino4";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Layout from "./components/Layout";
+
+
 
 function App() {
   return (
@@ -18,13 +21,13 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<div className="p-6 text-white text-2xl">Welcome to House of Tyche</div>} />
-        <Route path="/casinos" element={<Casinos />} />
+        {/* <Route path="/casinos" element={<Casinos />} />*/}
         <Route path="/casinos/casino1" element={<Casino1 />} />
         <Route path="/casinos/casino2" element={<Casino2 />} />
         <Route path="/casinos/casino3" element={<Casino3 />} />
         <Route path="/casinos/casino4" element={<Casino4 />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+        {/*<Route path="/about" element={<About />} /> */}
       </Routes>
     </Router>
   );
