@@ -43,8 +43,8 @@ export default function Layout({ children }) {
         </div>
       </nav>
 
-      <main className="p-6 flex-grow">
-        <div className="max-w-4xl mx-auto space-y-8">{children}</div>
+      <main className="flex-grow px-4">
+        <div className="max-w-6xl mx-auto space-y-12">{children}</div>
       </main>
 
       <footer className="bg-gray-800 text-gray-400 text-center py-4 text-sm">
